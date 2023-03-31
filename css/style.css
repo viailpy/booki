@@ -12,6 +12,7 @@ a {
 
 .flex {
     display: flex;
+    width: 100%;
 }
 
 :root {
