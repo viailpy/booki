@@ -1,0 +1,143 @@
+
+@media (max-width: 1024px) and (min-width:768px){
+
+    .hebergements-and-populaires{ 
+        flex-direction: column;  
+    }
+
+    .hebergements {
+        width: 100%;     
+    }
+
+    .populaires {
+        width: 100%;
+        margin-top: 1%; 
+        
+    }
+
+    .populaires-cards {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        box-sizing: border-box;
+        
+    } 
+
+    .card { 
+        padding: 1%;
+    }
+
+   
+    .populaires-cards .card {
+        display: flex;
+        flex-direction: row;
+        width: 30%;
+        box-sizing: border-box;
+        margin: 1%;  
+        padding: 1%; 
+        
+    }
+
+
+    .populaires-cards .card-title {
+        margin-top: 2%;
+        margin-bottom: 1%;
+    }
+
+    .populaires-cards .card-subtitle {
+        font-size: 13px;
+    }
+    .card img {
+        justify-content: center;
+    }
+
+    .card-content { 
+        flex-direction: row;
+    }
+
+    /*ancre*/
+
+    .lien1 :visited {
+        color: var(--main-color);
+    }
+           
+   
+    
+    .lien1:hover {
+        border-top:3px solid var(--main-color);
+        color: var(--main-color);    
+    }
+    
+    .lien1 {
+        padding-top: 20px;
+        font-style: normal; 
+    }
+
+    .lien {
+        display: flex;
+        gap: 4em;     
+    }
+
+
+    /*filtre*/
+
+    .border-filter {
+        flex-direction: row;
+        width: auto;
+        height: auto;
+        border: 3px solid var(--main-bg-color);
+        border-radius: 40px;
+        padding: 1em;
+        justify-content: left;
+        margin-right: 1em;
+        gap: 1em;
+        flex-wrap: wrap; 
+        font-size: 14px;
+    }
+
+    .filter {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .title-filter {
+        padding-bottom: 2%;
+    }
+    
+    .button-small {
+        display: none;
+    }
+
+   
+
+    /*activité a Marseille*/
+
+    .activites {
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        justify-content: space-between
+    }
+
+    .card-activite {
+        height: 250px;
+        
+    }
+
+    .card-activite img {
+        display: flex;
+        height: 80%;
+        object-fit: cover;
+    }
+
+    .padding-title {
+        padding-left:5%;
+    }
+
+   
+    
+    
+    
+   
+}
