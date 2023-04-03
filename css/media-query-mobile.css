@@ -37,9 +37,8 @@
     .hebergements {
         width: 100%;
         order: 2;   
-        }
+    }
       
-
     .logo {
         justify-content: center;
     }
@@ -58,7 +57,6 @@
         margin-bottom: 5%;
     }
    
-
     .populaires {
         width: 100%;
         order: 1;    
@@ -68,20 +66,15 @@
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        box-sizing: border-box; 
-         
+        box-sizing: border-box;     
     }
     
-   
-
-
     .populaires-cards .card  {
         width: 100%;
         display: flex;
         margin-top: 20%;
     }
 
-    
     .populaires-cards .card-title {
         margin-top: 2%;
         margin-bottom: 1%;
@@ -110,8 +103,7 @@
         grid-row-gap: 1%;
         justify-self: start;
         width: 100%;
-        text-align: center;
-        
+        text-align: center;   
     }
 
     
@@ -129,10 +121,7 @@
         text-align: center; 
         margin:  0 -45px; 
         padding-top:none;
-    
     }
-
-   
 
     .lien1:hover {
         border-top: none;
@@ -146,14 +135,12 @@
         padding-bottom:30px;    
     }
    
-   
     .populaires-cards .card {
         display: flex;
         margin-bottom:1%;
         margin-top: 1%;
     }
 
-    
     /*recherche*/
     .recherche {
         width: 100%;
@@ -193,9 +180,6 @@
     header section {
         margin: 4%;
     }
-
-    
-
 
     /*activité a Marseille*/
 

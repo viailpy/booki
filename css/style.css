@@ -6,8 +6,7 @@
 
 a { 
     text-decoration: none;
-    color: black;
-    
+    color: black; 
 }
 
 .flex {
@@ -22,9 +21,7 @@ a {
 }
 
 .fa-solid {
-    color: var(--main-color);
-    
-   
+    color: var(--main-color);  
 }
 
 .fa-sharp {
@@ -41,8 +38,7 @@ a {
 .logo{
     display: flex;
     height: 30px;
-    margin-top: 20px;
-    
+    margin-top: 20px;  
 }
 
   
@@ -95,10 +91,7 @@ h3 {
     border-radius: none;
     width: 50%;
     margin-bottom: 2%;
- 
 }
-
-
 
 .button {
     display: flex;
@@ -127,8 +120,6 @@ input {
     width: 100%;
 }
 
-
-
 .local {
     display: flex;
 	align-items: center;
@@ -151,8 +142,6 @@ input {
     align-items: center;
 } 
 
-   
-
 .border-filter {
     flex-direction: row;
     width: auto;
@@ -163,15 +152,12 @@ input {
     padding:1rem;
     justify-content: center;
     flex-wrap: wrap; 
- 
  }
-
 
  .title-filter {
     display: flex;
     margin: 2%;
-    justify-content: space-around;
-    
+    justify-content: space-around; 
  }
 
 .border-filter:hover{
@@ -224,7 +210,6 @@ body {
     margin: 0;
     font-size: 22px;
     padding-bottom: 2%;
-   
 }
 
 .card { 
@@ -232,7 +217,6 @@ body {
     border-radius: 20px;
     padding: 1%;
     filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
-    
 }
 
 .wrapper { 
@@ -241,7 +225,6 @@ body {
     margin: auto;
     grid-column-gap: 1em;
     grid-row-gap: 1em;
-    
   }
 
 .padding-title {
@@ -249,10 +232,8 @@ body {
 }
 
 .card img {
-    object-fit: cover;
-  
+    object-fit: cover; 
 }
-
 
 
 .card-title {
@@ -293,8 +274,7 @@ body {
 .populaires-title {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-       
+    align-items: center;     
 }
 
 
@@ -315,7 +295,6 @@ body {
     height: 150px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-
 }
 
 .populaires-cards .card-content {
@@ -332,8 +311,7 @@ body {
 }
 
 .populaires-cards .card-subtitle {
-    margin: 0;
-    
+    margin: 0;  
 }
 
 .populaires-cards .card-rating {
@@ -347,11 +325,9 @@ body {
     border-radius: 20px;
     filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
     width: 25%;
-   
     margin: 1%;
-    
-    
 }
+
 .card-activite img {
     display: flex;
     height: 88%;
@@ -362,15 +338,16 @@ body {
     display: flex;
     flex-wrap: nowrap;
     flex-direction: row;
-    justify-content: space-between
-    
+    justify-content: space-between 
 }
+
 .marge-title {
     padding-left: 5%;
     padding-right: 3%;
     font-size: 14px;
     
 }
+
 /*footer*/
 
 .card-foot {
