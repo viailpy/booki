@@ -5,6 +5,7 @@
         flex-direction: column;
         justify-content: space-between;
         box-sizing: border-box;
+        width: 100%;
           
     }
     .hebergements-and-populaires section{
@@ -13,7 +14,8 @@
 
     .hebergements-and-populaires{
         display: flex;
-        flex-direction: column; 
+        flex-direction: column;
+        width: 90%;
     }
 
     .card-activite {
@@ -30,8 +32,10 @@
         box-sizing: border-box;
     }
     .hebergement-cards img {
-        height: 200px;
+        height: 8em;
     }
+
+    
 
     
     .hebergements {
@@ -44,7 +48,15 @@
     }
 
     .body {
-        margin: 0     
+        margin: 0;
+        padding: 0; 
+       
+    }
+
+    .card {
+        width: 100%;
+
+       
     }
 
     h2 h3 .info  {
@@ -105,22 +117,24 @@
         width: 100%;
         text-align: center;   
     }
+    
 
     
     /*ancre*/
 
     .lien {
-        padding-bottom: 5%;
-        font-size: larger;  
+        padding-bottom:1em;
+        font-size: larger; 
+        
     }  
        
     .lien1 {
-        border-bottom: 2px solid var(--main-bg-color);
-        padding-bottom:30px;
+        border-bottom:2px solid #ffffff;
+        padding-bottom:2em;
         width: 100%;
         text-align: center; 
-        margin:  0 -45px; 
-        padding-top:none;
+        
+        
     }
 
     .lien1:hover {
@@ -129,16 +143,12 @@
         padding-bottom:30px;    
     }
 
-    .lien1:active {
-        border-top: none;
-        border-bottom:2px solid var(--main-color);
-        padding-bottom:30px;    
-    }
+    
    
     .populaires-cards .card {
         display: flex;
-        margin-bottom:1%;
-        margin-top: 1%;
+        margin-bottom:1em;
+        margin-top: 1em;
     }
 
     /*recherche*/
@@ -166,6 +176,10 @@
         margin-left: -15px;
     }
 
+    .contenair-input {
+        width:90%;
+    }
+
     input {
         display: flex;
         width:100%;
@@ -174,7 +188,7 @@
         font-weight: bold;   
         text-align: center; 
         border-right: none; 
-        min-width: 200px;
+        min-width: 60%;
     }
 
     header section {
