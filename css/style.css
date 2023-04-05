@@ -5,6 +5,7 @@
 
 main {
     display: flex;
+    
 }
 
 
@@ -17,7 +18,7 @@ ul {
   }
 
 li {
-    padding-bottom: 10px;
+    padding: 10px 0 ;
 }
 
 a { 
@@ -27,7 +28,7 @@ a {
 
 .flex {
     display: flex;
-    width: 100%;
+    width: 65%;
 }
 
 
@@ -101,7 +102,7 @@ h3 {
    
 }
 .pad {
-    margin: 0 20px ;
+    margin: 0 2% ;
 }
 
 /*barre de recherche*/
@@ -209,7 +210,7 @@ body {
     max-width: 1440px;
     min-width: 320px;
     margin: auto;
-    
+   
 }
 
 .section-title {
