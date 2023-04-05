@@ -1,13 +1,32 @@
 @media (max-width: 767px) {
 
+    main {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    
+    header {
+        padding-bottom: 10px;
+    }
+
+    h2 {
+        margin: 20px 0; 
+    }
+
+    ul {
+        padding-inline-start: 0;
+    }
+    
     .hebergements-and-populaires .wrapper{
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         box-sizing: border-box;
-        width: 100%;
-          
+        width: 100%;     
     }
+
     .hebergements-and-populaires section{
         background-color:white;
     }
@@ -16,6 +35,8 @@
         display: flex;
         flex-direction: column;
         width: 90%;
+        margin:  10px 0;
+        padding: 20px;
     }
 
     .card-activite {
@@ -31,16 +52,19 @@
         justify-content: space-between;
         box-sizing: border-box;
     }
+
     .hebergement-cards img {
         height: 8em;
     }
 
-    
+    .populaires {
+        width: 100%;
+        order: 1;    
+    }
 
-    
     .hebergements {
         width: 100%;
-        order: 2;   
+        order: 2; 
     }
       
     .logo {
@@ -49,31 +73,24 @@
 
     .body {
         margin: 0;
-        padding: 0; 
-       
+        padding: 0;  
     }
 
     .card {
         width: 100%;
-
-       
+        margin-top: 20px;
     }
-
-    h2 h3 .info  {
-        display: flex;
-        flex-wrap: wrap;
         
+
+    h2 h3 .info {
+        display: flex;
+        flex-wrap: wrap;     
     }
 
     .info {
         margin-bottom: 5%;
     }
    
-    .populaires {
-        width: 100%;
-        order: 1;    
-    }
-
     .populaires-cards {
         display: flex;
         flex-direction: column;
@@ -88,15 +105,13 @@
     }
 
     .populaires-cards .card-title {
-        margin-top: 2%;
-        margin-bottom: 1%;
+       margin: 0 10px;
     }
 
     .populaires-cards .card-subtitle {
         font-size: 13px;
     }
 
-    
     .contenair-title {
         display: flex;
         flex-wrap: wrap;
@@ -118,36 +133,27 @@
         text-align: center;   
     }
     
-
-    
     /*ancre*/
-
-    .lien {
-        padding-bottom:1em;
-        font-size: larger; 
-        
-    }  
-       
     .lien1 {
+        display: flex;
         border-bottom:2px solid #ffffff;
-        padding-bottom:2em;
+        padding-bottom: 30px;
         width: 100%;
         text-align: center; 
+        font-size: larger; 
+        justify-content: space-evenly;
         
         
     }
-
+    
     .lien1:hover {
         border-top: none;
         border-bottom:2px solid var(--main-color);
         padding-bottom:30px;    
     }
 
-    
-   
     .populaires-cards .card {
         display: flex;
-        margin-bottom:1em;
         margin-top: 1em;
     }
 
@@ -188,18 +194,21 @@
         font-weight: bold;   
         text-align: center; 
         border-right: none; 
-        min-width: 60%;
+        min-width: 40%;
     }
 
-    header section {
-        margin: 4%;
+    /*filter*/
+    .border-filter {
+        height: auto;
+        padding: 0.5em;
+        min-width: 140px;
     }
 
     /*activité a Marseille*/
-
     .activites {
         display: flex;
-        flex-wrap: wrap;    
+        flex-wrap: wrap;
+           
     }
 
     /*footer*/
@@ -210,7 +219,7 @@
         justify-content: space-between;
         box-sizing: border-box;  
     }
-  
+    
 }
     
     
