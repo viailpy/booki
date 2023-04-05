@@ -8,7 +8,6 @@ main {
     
 }
 
-
 ul {
     display: flex;
     list-style-type: none;
@@ -57,21 +56,20 @@ a {
 .logo{
     display: flex;
     height: 30px;
-    margin-top: 20px;  
+    margin: 20px;  
 }
  
-header {
-    margin: 0 10px ;
-}
+
 
 .lien {
     display: flex;
-    gap:40px;    
+       
 }
 
 .lien1{
     padding-top: 20px;
     border-top:3px solid #ffffff;
+    margin: 0 20px;
 }
 
 .lien1 a {
@@ -121,7 +119,6 @@ h3 {
     border-radius: 0px 15px 15px 0px;
     color: white;
     background-color: var(--main-color);
-    width: auto;
     height: 49px;
     font-weight: bold; 
     padding: 0 1em; 
@@ -136,17 +133,15 @@ input {
     display: flex;
     height: 49px;
     border:2px solid var(--main-bg-color);
-    border-right: none;
+    border-right: 0;
     font-weight: bold;   
-    text-align: center; 
-    width: 100%;
+    text-align: center;   
 }
 
 .local {
     display: flex;
 	align-items: center;
 	justify-content: center;
-    width: auto;
     height: 49px;
     background-color: var(--main-bg-color);
     border-radius: 15px 0 0 15px;
