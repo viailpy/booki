@@ -1,14 +1,29 @@
 @media (max-width: 767px) {
 
-    main {
-        display: flex;
+    .flex {
         flex-direction: column;
-        
-        box-sizing: border-box;
     }
     
     header {
         padding-bottom: 10px;
+    }
+    main {
+        margin:0;
+        padding: 0;
+    }
+
+    .aff {
+        padding: 10px 0 0 5px;
+        margin: 0;
+    }
+
+    header {
+        margin: 0;
+        padding: 0;
+    }
+
+    .pad {
+        padding: 0 20px;
     }
         
 
@@ -76,9 +91,13 @@
         justify-content: center;
     }
 
+    .section-title {
+        padding: 0;
+    }
+
     .card {
         width: 100%;
-        margin-top: 20px;
+        margin-top: 10px;
     }
     
     h2 h3 .info {
@@ -102,10 +121,21 @@
         display: flex;
         margin-top: 30px;
     }
+     .populaires-cards img {
+        margin-right: 20px;
+     }
 
     .populaires-cards .card-subtitle {
         font-size: 13px;
     }
+
+    .wrapper { 
+        display: grid;
+        grid-template-columns:1fr 1fr 1fr ;
+        margin: 0;
+        grid-column-gap: 1em;
+        grid-row-gap: 1em;
+      }
 
     .contenair-title {
         display: flex;
@@ -121,10 +151,13 @@
         display: grid;
         grid-template-columns:1fr 1fr ;
         margin: auto;
-        grid-column-gap: 1%;
+        padding: 5px;
+        grid-column-gap: 10px;
         justify-self: start;
         width: 100%;
-        text-align: center;   
+        text-align: center;
+        font-size: 14px; 
+        box-sizing: border-box;  
     }
     
     /*ancre*/
@@ -155,6 +188,7 @@
     .recherche {
         width: 90%;
         margin: auto;
+        padding-left: 10px;
     }
 
     .button {
@@ -195,13 +229,20 @@
         padding: 0.5em;
         min-width: 140px;
     }
+    
+    .title-filter {
+        padding-bottom: 0;
+    }
 
     /*activité a Marseille*/
     .activites {
         display: flex;
         flex-wrap: wrap;
+        padding: 0 10px;
            
     }
+
+    /*footer*/
 
     /*footer*/
 
@@ -209,7 +250,8 @@
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        box-sizing: border-box;  
+        box-sizing: border-box;
+        margin: 0;  
     }
     
 }

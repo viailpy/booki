@@ -1,13 +1,15 @@
 
 @media (max-width: 1024px) and (min-width:768px){
 
-    main{
-        display: block;  
-    }
+   
 
     p {
          margin-block:10px;
-    }   
+    } 
+    
+    .flex {
+        flex-direction: column;
+    }
    
     .hebergements-and-populaires{ 
         flex-direction: column;  
@@ -15,7 +17,7 @@
 
    
     .hebergements {
-        width: 97%;     
+        width: 100%;     
     }
 
     .populaires {
@@ -55,6 +57,15 @@
 
     .card img {
         justify-content: center;
+    }
+
+    .populaires-cards img {
+        display: flex;
+        height: 140px;
+        width: 80px;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+        margin-right: 5px;
     }
 
     .card-content { 

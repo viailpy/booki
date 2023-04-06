@@ -3,10 +3,7 @@
     font-family: 'Raleway', sans-serif;
 }
 
-main {
-    display: flex;
-    
-}
+
 
 ul {
     display: flex;
@@ -17,17 +14,25 @@ ul {
   }
 
 li {
-    padding: 10px 0 ;
+    padding: 10px 0;
 }
 
 a { 
     text-decoration: none;
-    color: black; 
+    color: black;
+    font-size: 15px; 
+}
+
+p {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin: 5px 0;
 }
 
 .flex {
     display: flex;
-    width: 65%;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 
@@ -59,8 +64,6 @@ a {
     margin: 20px;  
 }
  
-
-
 .lien {
     display: flex;
        
@@ -106,10 +109,10 @@ h3 {
 /*barre de recherche*/
 .recherche {
     display: flex;
-    padding: 30px 0;
+    padding: 30px 0 10px 20px;
     border-radius: 0;
     width: 50%;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
 }
 
 .button {
@@ -127,6 +130,7 @@ h3 {
  
 .contenair-input {
     width:70%;
+    box-sizing: border-box;
 }
     
 input {
@@ -170,7 +174,7 @@ input {
 
  .title-filter {
     display: flex;
-    padding: 4px 20px;
+    padding: 20px;
     justify-content: space-around; 
  }
 
@@ -205,12 +209,13 @@ body {
     max-width: 1440px;
     min-width: 320px;
     margin: auto;
+    padding: 0;
+    box-sizing: border-box;
    
 }
 
 .section-title {
-    margin-top: 10px;
-    font-size: 22px;   
+   padding-left: 15px;  
 }
 
 .card { 
@@ -224,13 +229,13 @@ body {
 .wrapper { 
     display: grid;
     grid-template-columns:1fr 1fr 1fr ;
-    margin: auto;
+    margin: 1em;
     grid-column-gap: 1em;
     grid-row-gap: 1em;
   }
 
 .padding-title {
-    padding: 0 0 10px 10px
+    padding: 40px 0 10px 
 }
 
 .card img {
@@ -250,6 +255,11 @@ body {
     color: var(--main-bg-color)
 }
 
+.aff {
+    padding: 0 0 10px 25px;
+    font-size: 14px;
+}
+
 /****** Hebergements And Populaires ***********/
 
 
@@ -265,6 +275,11 @@ body {
 .hebergements-and-populaires section {
     display: flex;
     justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.pad-heberg {
+    padding: 0 0 10px 10px;
 }
 
 
@@ -290,15 +305,17 @@ body {
 }
 
 .populaires-cards img {
-    width: 80%;
-    height: 11em;
+    display: flex;
+    height: 140px;
+    width: 110px;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
+    margin-right: 5px;
 }
 
 .hebergement-cards img {
     width: 100%;
-    height: 7em;
+    height: 8em;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
@@ -322,6 +339,11 @@ body {
 .populaires-cards .card-rating {
     margin-bottom: 1%;
 }
+.position-card-rating {
+    position: absolute;
+    top: 115px;
+    left: 125px;
+}
 
 /*activité a marseille*/
 .card-activite {
@@ -335,7 +357,7 @@ body {
 
 .card-activite img {
     display: flex;
-    height: 88%;
+    height: 380px;
     object-fit: cover;
 }
 
@@ -348,6 +370,7 @@ body {
 
 .marge-title {
     padding: 0 10px;
+    margin:14px 0 10px 5px;
     font-size: 14px;    
 }
 
@@ -357,7 +380,7 @@ body {
     display: flex;
     border:solid 1px var(--main-bg-color);
     background-color:var(--main-bg-color);
-    margin:10px;
+    margin:30px 30px 0 30px;
     padding: 0 20px;
 }
 
