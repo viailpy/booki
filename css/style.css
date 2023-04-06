@@ -74,6 +74,7 @@ p {
 
 .lien1 a {
     color: black;
+    font-size: 18px;
 }
 
 .lien1 a:visited {
@@ -345,7 +346,7 @@ body {
 
 .card-activite img {
     display: flex;
-    height: 380px;
+    height: 350px;
     object-fit: cover;
 }
 
@@ -368,8 +369,8 @@ body {
     display: flex;
     border:solid 1px var(--main-bg-color);
     background-color:var(--main-bg-color);
-    margin:30px 30px 0 30px;
-    padding: 0 20px;
+    margin: 20px  10px 0 10px;
+    
 }
 
 .content-foot {
@@ -383,10 +384,6 @@ body {
     display: flex;
     flex-direction: column;
     font-size: 16px; 
-}
-
-.pad-foot {
-    padding-bottom: 10px;
 }
 
 @media (min-width: 1024px) {

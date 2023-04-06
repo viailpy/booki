@@ -70,23 +70,29 @@
         flex-direction: row;
     }
 
+    .position-card-rating {
+        position: absolute;
+        top: 130px;
+        left: 100px;
+    }
+
     /*ancre*/
 
-    .link1 :visited {
+    .lien1 :visited {
         color: var(--main-color);
     }
            
-    .link1:hover {
+    .lien1:hover {
         border-top:3px solid var(--main-color);
         color: var(--main-color);    
     }
     
-    .link1 {
+    .lien1 {
         padding-top: 20px;
         font-style: normal; 
     }
 
-    .link {
+    .lien {
         display: flex;
         gap: 40px;     
     }
@@ -115,24 +121,22 @@
 
     /*activité a Marseille*/
 
-    .activity {
+    .activites {
         display: flex;
         flex-wrap: nowrap;
         flex-direction: row;
         justify-content: space-between
     }
 
-    .card-activity {
+    .card-activite {
         height: 250px;   
     }
 
-    .card-activity img {
+    .card-activite img {
         display: flex;
         height: 80%;
         object-fit: cover;
     }
 
-    .padding-title {
-        padding-left:5%;
-    }  
+    
 }
