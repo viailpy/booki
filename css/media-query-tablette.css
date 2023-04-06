@@ -38,7 +38,7 @@
     .populaires-cards .card {
         display: flex;
         flex-direction: row;
-        width: 30%;
+        max-width: fit-content;
         box-sizing: border-box;
         margin: 1%;  
         padding: 1%;  
@@ -72,8 +72,8 @@
 
     .position-card-rating {
         position: absolute;
-        top: 130px;
-        left: 100px;
+        top: 120px;
+        left: 95px;
     }
 
     /*ancre*/

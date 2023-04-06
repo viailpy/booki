@@ -1,4 +1,11 @@
 /****** General ***********/
+
+:root {
+    --main-color: #0065FC;
+    --main-bg-color: #F2F2F2;
+    --filter-bg-color: #DEEBFF;
+}
+
 * {
     font-family: 'Raleway', sans-serif;
 }
@@ -34,11 +41,6 @@ p {
 }
 
 
-:root {
-    --main-color: #0065FC;
-    --main-bg-color: #F2F2F2;
-    --filter-bg-color: #DEEBFF;
-}
 
 .fa-solid {
     color: var(--main-color);  
@@ -215,7 +217,7 @@ body {
    padding-left: 15px;  
 }
 
-.card { 
+.card {
     background-color: white;
     border-radius: 20px;
     padding: 1%;
