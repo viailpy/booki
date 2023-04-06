@@ -1,8 +1,6 @@
 
 @media (max-width: 1024px) and (min-width:768px){
 
-   
-
     p {
          margin-block:10px;
     } 
@@ -17,7 +15,7 @@
 
    
     .hebergements {
-        width: 100%;     
+        width: 97%;     
     }
 
     .populaires {
@@ -74,21 +72,21 @@
 
     /*ancre*/
 
-    .lien1 :visited {
+    .link1 :visited {
         color: var(--main-color);
     }
            
-    .lien1:hover {
+    .link1:hover {
         border-top:3px solid var(--main-color);
         color: var(--main-color);    
     }
     
-    .lien1 {
+    .link1 {
         padding-top: 20px;
         font-style: normal; 
     }
 
-    .lien {
+    .link {
         display: flex;
         gap: 40px;     
     }
@@ -117,18 +115,18 @@
 
     /*activité a Marseille*/
 
-    .activites {
+    .activity {
         display: flex;
         flex-wrap: nowrap;
         flex-direction: row;
         justify-content: space-between
     }
 
-    .card-activite {
+    .card-activity {
         height: 250px;   
     }
 
-    .card-activite img {
+    .card-activity img {
         display: flex;
         height: 80%;
         object-fit: cover;

@@ -3,15 +3,13 @@
     font-family: 'Raleway', sans-serif;
 }
 
-
-
 ul {
     display: flex;
     list-style-type: none;
     margin-block-start: 0;
     padding-inline-start: 0;
     margin-block-end: 0; 
-  }
+}
 
 li {
     padding: 10px 0;
@@ -65,8 +63,7 @@ p {
 }
  
 .lien {
-    display: flex;
-       
+    display: flex;      
 }
 
 .lien1{
@@ -94,7 +91,7 @@ p {
 
 h2 {
     font-size: 22px; 
- }
+}
 
 h3 {
     font-size: 18px;
@@ -210,8 +207,7 @@ body {
     min-width: 320px;
     margin: auto;
     padding: 0;
-    box-sizing: border-box;
-   
+    box-sizing: border-box;  
 }
 
 .section-title {
@@ -242,13 +238,8 @@ body {
     object-fit: cover; 
 }
 
-
 .card-title {
     font-size: 16px;
-}
-
-.euro {
-    font-weight: 700;
 }
 
 .neutralStar {
@@ -261,10 +252,7 @@ body {
 }
 
 /****** Hebergements And Populaires ***********/
-
-
 .hebergements-and-populaires {
-    
     background-color: var(--main-bg-color);
     border-radius: 20px;
     padding: 10px;
