@@ -38,7 +38,6 @@
     .populaires-cards .card {
         display: flex;
         flex-direction: row;
-        max-width: fit-content;
         box-sizing: border-box;
         margin: 1%;  
         padding: 1%;  
@@ -68,6 +67,15 @@
 
     .card-content { 
         flex-direction: row;
+        
+    }
+
+    .a-card {
+        
+        max-width: 250px;
+       
+       
+       
     }
 
     .position-card-rating {
@@ -96,6 +104,8 @@
         display: flex;
         gap: 40px;     
     }
+
+   
 
      /*filtre*/
     .border-filter {
