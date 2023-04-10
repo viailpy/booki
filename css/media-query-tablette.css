@@ -45,7 +45,7 @@
 
     .populaires-cards .card-title {
         margin-top:10px;
-        margin-bottom: 10px
+        margin-bottom: 10px;
     }
 
     .populaires-cards .card-subtitle {
@@ -66,8 +66,7 @@
     }
 
     .card-content { 
-        flex-direction: row;
-        
+        flex-direction: row;   
     }
 
     .a-card {
