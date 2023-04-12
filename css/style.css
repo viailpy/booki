@@ -10,9 +10,7 @@
     font-family: 'Raleway', sans-serif;
 }
 
-.fa-sharp {
-    color: black;
-}
+
 
 .fa-solid {
     color: var(--main-color);  
@@ -109,6 +107,10 @@ h3 {
     margin: 0 10px ;
 }
 
+.pad2{
+    padding-right: 10px;
+}
+
 /*barre de recherche*/
 .recherche {
     display: flex;
@@ -154,7 +156,9 @@ input {
     background-color: var(--main-bg-color);
     border-radius: 15px 0 0 15px;
     padding: 0 1em;
+    color: black;
 }
+
 
  /*filtre*/
 .filter {

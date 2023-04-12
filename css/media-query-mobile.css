@@ -26,9 +26,13 @@
     .pad {
         padding: 0 20px;
     }
-        
+  
     h2 {
         margin: 20px 0; 
+    }
+
+    h3 { 
+        margin: 10px 0
     }
 
     ul {
@@ -87,6 +91,7 @@
     }
       
     .logo {
+        display: flex;
         justify-content: center;
     }
 
